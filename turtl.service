@@ -1,0 +1,16 @@
+[Unit]
+Description=Note taking service
+Documentation=https://framacloud.org/fr/cultiver-son-jardin/turtl.html
+Requires=network.target
+Requires=rethinkdb.service
+After=network.target
+After=rethinkdb.service
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/var/www/turtl/api/
+ExecStart=/usr/bin/ccl -Q -b --load start.lisp
+
+[Install]
+WantedBy=multi-user.target

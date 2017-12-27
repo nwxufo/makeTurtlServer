@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="fr"><head><link rel="stylesheet" media="all" href="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/bootstrap.css">
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <title>Framanotes / Turtl · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <style class="anchorjs"></style><link rel="stylesheet" href="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/page-toc.css">
+                
+            
+                
+                <link rel="stylesheet" href="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/website_002.css">
+                
+            
+                
+                <link rel="stylesheet" href="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/website_003.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    
+
+    
+    <link rel="next" href="https://framacloud.org/fr/cultiver-son-jardin/etherpad.html">
+    
+    
+    <link rel="prev" href="https://framacloud.org/fr/cultiver-son-jardin/ttrss.html">
+    
+
+    <script type="text/javascript" src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/nav.js"></script><script src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/config.js" type="text/javascript" charset="utf-8"></script><script src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/jquery.js" type="text/javascript" charset="utf-8"></script><link rel="stylesheet" media="all" href="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/font-awesome.css"><link href="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/video-js.css" media="all" rel="stylesheet"><link rel="stylesheet" media="screen" href="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/nav.css"><link rel="stylesheet" media="all" href="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/frama.css"><link rel="alternate" type="application/rss+xml" title="RSS feed aggregating various sites." href="https://rss.framasoft.org/"><link rel="icon" type="image/png" href="https://framasoft.org/nav/img/icons/fav_cloud.png"><link rel="apple-touch-icon" href="https://framasoft.org/nav/img/icons/cloud.png"></head>
+    <body><div id="framanav_container" class="hidden-print" style="height: 42px; opacity: 1;"><nav class="navbar navbar-default" id="framanav" role="menubar" style="display:none"><button type="button" class="navbar-toggle text-muted" data-toggle="collapse" data-target=".navbar-ex1-collapse"><span class="sr-only">Toggle menu</span><i class="fa fa-fw fa-lg fa-bars" aria-hidden="true"></i></button><div class="nav-container"><div class="navbar-header"><a class="navbar-brand" href="https://framasoft.org/"><img src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/logo.png"><span class="hidden-sm"><b class="violet">Frama</b><b class="orange">soft</b></span></a><a href="#nav-end" id="nav-skip">Skip menu</a></div><div class="collapse navbar-collapse navbar-ex1-collapse"><ul class="nav navbar-nav"><li class="dropdown" id="fs_soft"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Free Software<b class="caret"></b></a><ul class="dropdown-menu"><li class="fs_soft fs_libre"><a href="http://framalibre.org/" rel="popover" data-content="1600+ software indexed, tagged and tested, this is the historical initial project by Framasoft. Content also include howtos and full reviews." target="_blank" data-original-title="Free software directory"><i class="fa fa-fw fa-lg fa-linux" aria-hidden="true"></i>&nbsp;Framalibre&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_soft fs_key"><a href="https://framakey.org/" rel="popover" data-content="Packed in a USB device (or any other mobile device) you can be mobile and enjoy 100+ free software for Windows, test a GNU/Linux distro and access offline Wikipedia." target="_blank" data-original-title="Le plein de liberté dans une simple clé"><i class="fa fa-fw fa-lg fa-usb" aria-hidden="true"></i>&nbsp;Framakey&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_soft fs_dvd"><a href="http://framadvd.org/" rel="popover" data-content="This DVD is full with best free software for Windows, Mac and GNU/Linux (distro included) with additional free and open source cultural content (texts, photos, audio and video files). A dedicated Education version is also available." target="_blank" data-original-title="Full tank of Freedom in a DVD"><i class="fa fa-fw fa-lg fa-play-circle-o" aria-hidden="true"></i>&nbsp;Framadvd&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_soft fs_pack"><a href="https://framapack.org/" rel="popover" data-content="Framapack offers an handy way to pick on the best Free or open source software for Windows with updated version. You just select the ones you wish and they all install on one click !" target="_blank" data-original-title="Massive install"><i class="fa fa-fw fa-lg fa-download" aria-hidden="true"></i>&nbsp;Framapack&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_soft fs_start"><a href="http://framastart.org/" rel="popover" data-content="The top free and Libre software on a single page." target="_blank" data-original-title="Framastart"><i class="fa fa-fw fa-lg fa-rocket" aria-hidden="true"></i>&nbsp;Framastart&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="fs_soft fs_evl"><a href="https://enventelibre.org/40-framasoft" rel="popover" data-content="Online shop for various Framasoft products&nbsp;: Framakey, Framabook, Framadvd, goodies and t-shirts." target="_blank" data-original-title="Our Libre little shop"><i class="fa fa-fw fa-lg fa-shopping-cart" aria-hidden="true"></i>&nbsp;EnVenteLibre&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="fs_soft fs_vvl"><a href="http://vvlibri.org/" rel="popover" data-content="Everything on Free licenses." target="_blank" data-original-title="Veni Vidi Libri"><i class="fa fa-fw fa-lg fa-legal" aria-hidden="true"></i>&nbsp;Veni Vidi Libri&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_soft fs_clibre"><a href="http://clibre.eu/" rel="popover" data-content="Another index of Free software and alternatives" target="_blank" data-original-title="CLibre.eu"><i class="fa fa-fw fa-lg fa-leaf" aria-hidden="true"></i>&nbsp;CLibre.eu&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li></ul></li><li class="dropdown" id="fs_culture"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Free Culture<b class="caret"></b></a><ul class="dropdown-menu"><li class="fs_culture fs_blog"><a href="https://framablog.org/" rel="popover" data-content="Weekly report on Libre and Free Software and Culture. Rich contributions in the comments, numerous exclusive translations, interviews of individuals promoting Free and open source projects of all kind, ews from our various projects." target="_blank" data-original-title="Libre News"><i class="fa fa-fw fa-lg fa-pencil" aria-hidden="true"></i>&nbsp;Framablog&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_culture fs_book"><a href="http://framabook.org/" rel="popover" data-content="Notre maison d’édition qui comporte une vingtaine de titres autour du logiciel libre, initiation à la programmation, réflexion sur le droit d’auteur mais aussi des BD et même un roman. Un livre libre offre au lecteur les mêmes libertés qu’un logiciel libre." target="_blank" data-original-title="Le pari du livre libre"><i class="fa fa-fw fa-lg fa-book" aria-hidden="true"></i>&nbsp;Framabook&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_culture fs_bookin"><a href="http://framabookin.org/" rel="popover" data-content="Our digital Library offers hundredth of works from the Public Domain. It can be browsed and searched online from mobile devices (smartphones, tablets, e-readers…) and can be added directly to your favorite e-book reader via an OPDS feed." target="_blank" data-original-title="A Free digital Library"><i class="fa fa-fw fa-lg fa-coffee" aria-hidden="true"></i>&nbsp;Framabookin&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_culture fs_lang"><a href="https://framablog.org/framalang" rel="popover" data-content="Let's translate together, mainly from English into French, in a collaborative effort, taking advantage of online real-time work and of volunteer participation. Article, news, subtitles or even books&nbsp;!" target="_blank" data-original-title="Collaborative Translation"><i class="fa fa-fw fa-lg fa-language" aria-hidden="true"></i>&nbsp;Framalang&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_culture fs_tube"><a href="https://framatube.org/" rel="popover" data-content="French or French subtitled videos about Free and Libre software and Free culture. Interviews, confs, docs, TV excepts… everything for your information." target="_blank" data-original-title="Our Libre « YouTube »"><i class="fa fa-fw fa-lg fa-film" aria-hidden="true"></i>&nbsp;Framatube&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_culture fs_zic"><a href="http://framazic.org/" rel="popover" data-content="A « free music » offers to music lovers the same fundamental freedoms as Free software. This dedcated site lets you undersatnd this concept, along with a tasteful selection." target="_blank" data-original-title="When music is getting free"><i class="fa fa-fw fa-lg fa-music" aria-hidden="true"></i>&nbsp;Framazic&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="fs_culture fs_evl2"><a href="https://enventelibre.org/40-framasoft" rel="popover" data-content="Online shop for various Framasoft products&nbsp;: Framakey, Framabook, Framadvd, goodies and t-shirts." target="_blank" data-original-title="Our Libre little shop"><i class="fa fa-fw fa-lg fa-shopping-cart" aria-hidden="true"></i>&nbsp;EnVenteLibre&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="fs_culture fs_ptilouk"><a href="http://ptilouk.net/" rel="popover" data-content="Free and Libre Comics" target="_blank" data-original-title="Ptilouk"><i class="fa fa-fw fa-lg fa-picture-o" aria-hidden="true"></i>&nbsp;Ptilouk&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_culture fs_noenaute"><a href="http://noenaute.fr/" rel="popover" data-content="Geeky, Juicy, Free and Libre novels" target="_blank" data-original-title="NoeNaute"><i class="fa fa-fw fa-lg fa-book" aria-hidden="true"></i>&nbsp;NoeNaute&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_culture fs_planet-libre"><a href="http://planet-libre.org/" rel="popover" data-content="Selection of french speaking  news." target="_blank" data-original-title="Planet-libre"><i class="fa fa-fw fa-lg fa-globe" aria-hidden="true"></i>&nbsp;Planet-libre&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li></ul></li><li class="dropdown" id="fs_services"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Free Services<b class="caret"></b></a><ul class="dropdown-menu"><li class="fs_services fs_dio dropdown-header"><a href="https://degooglisons-internet.org/list/?l=en" rel="popover" data-content="List of all the services we offer classified by usage, with a search bar to help you find the one that meets your needs." target="_blank" data-original-title="List of services"><b><i class="fa fa-fw fa-lg " aria-hidden="true"></i>&nbsp;All services</b>&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="fs_services fs_pad"><a href="https://framapad.org/" rel="popover" data-content="Let's write together on the same document in real time in an online interface. No prior registration required, a nick is enough, every participant has her own color and let's go!" data-placement="left" target="_blank" data-original-title="Collaborative editing"><i class="fa fa-fw fa-lg fa-align-left" aria-hidden="true"></i>&nbsp;Framapad&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_calc"><a href="https://framacalc.org/" rel="popover" data-content="Framacalc is a spreadsheet program that lets you edit colloratively and easily on the same online document." target="_blank" data-original-title="Collaborative Spreadsheet Edition"><i class="fa fa-fw fa-lg fa-th" aria-hidden="true"></i>&nbsp;Framacalc&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_forms"><a href="https://framaforms.org/" rel="popover" data-content="Framaforms vous permet de créer les questionaires dont vous avez besoin, que ce soit dans un cadre scolaire, familial ou associatif. Créez vos questions en fonction de vos besoins, des formulaires à choix multiples aux champs de texte libre." data-placement="left" target="_blank" data-original-title="Création de questionnaires"><i class="fa fa-fw fa-lg fa-list-ul" aria-hidden="true"></i>&nbsp;Framaforms&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_agenda"><a href="https://framagenda.org/" rel="popover" data-content="Framagenda vous permet de créer des agendas, de les publier en ligne et de les partager." target="_blank" data-original-title="Agenda partagé"><i class="fa fa-fw fa-lg fa-calendar" aria-hidden="true"></i>&nbsp;Framagenda&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_date"><a href="https://framadate.org/" rel="popover" data-content="Framadate is a Doodle-like software, but it is free and open source. Create an appointment or a survey without registration and invite your friends or colleagues." data-placement="left" target="_blank" data-original-title="Organize appointments and surveys"><i class="fa fa-fw fa-lg fa-calendar-check-o" aria-hidden="true"></i>&nbsp;Framadate&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_board"><a href="https://framaboard.org/" rel="popover" data-content="Framaboard is a simple and open source visual task board manager inspired by Kanban method. You can get things done and organized at first look, even if you are not familiar with this kind of tools." target="_blank" data-original-title="Project management"><i class="fa fa-fw fa-lg fa-dashboard" aria-hidden="true"></i>&nbsp;Framaboard&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_mindmap"><a href="https://framindmap.org/" rel="popover" data-content="Mindmapping made easy with a seamless intuitive interface. Create mind maps right from your browser. Take notes, brainstorm, make a conf using it." data-placement="left" target="_blank" data-original-title="Create mind maps"><i class="fa fa-fw fa-lg fa-sitemap fa-rotate-270" aria-hidden="true"></i>&nbsp;Framindmap&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_vectoriel"><a href="http://framavectoriel.org/" rel="popover" data-content="Create and edit easily nice images online in SVG open format. Children will love it!" target="_blank" data-original-title="Vector graphics"><i class="fa fa-fw fa-lg fa-paint-brush" aria-hidden="true"></i>&nbsp;Framavectoriel&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_slides"><a href="https://framaslides.org/" rel="popover" data-content="Framaslides vous permet de créer directement en ligne un diaporama ou une présentation, d’y accéder avec une simple connexion internet, et de la partager." data-placement="left" target="_blank" data-original-title="Créer et partager des diaporamas"><i class="fa fa-fw fa-lg fa-pie-chart" aria-hidden="true"></i>&nbsp;Framaslides&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_maestro"><a href="https://framaestro.org/" rel="popover" data-content="Besoin en même temps d’un pad pour prendre des notes, d’un tableau d’organisation, et d’une vidéo-conférence ? Avec Framaestro, c'est vous qui organisez les outils qu’il vous faut, sur une seule et unique page web." target="_blank" data-original-title="Orchestrez vos projets collaboratifs"><i class="fa fa-fw fa-lg fa-magic" aria-hidden="true"></i>&nbsp;Framaestro&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="fs_services fs_bee"><a href="https://framabee.org/" rel="popover" data-content="Framabee is a free and anonymous metasearch engine. You search request is processed via this engine and sent to various search engines, then the results are displayed in your browser. The intersting point is Framabee is running between you and Google (and other popular search engines), so your personal data such as IP address, search history, geolocation, and profile are not collected by search engines." data-placement="left" target="_blank" data-original-title="This metasearch engine is foraging the Web for you"><i class="fa fa-fw fa-lg fa-search" aria-hidden="true"></i>&nbsp;Framabee&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_carte"><a href="https://framacarte.org/" rel="popover" data-content="Framacarte lets you draw, mark, colorize, annotate… basemaps from OpenStreetMap, then you can show them on your website or print." target="_blank" data-original-title="Cartographie personnalisée"><i class="fa fa-fw fa-lg fa-map" aria-hidden="true"></i>&nbsp;Framacarte&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="fs_services fs_sphere"><a href="https://framasphere.org/" rel="popover" data-content="Framasphère is a Free, Libre and open source social media network, built over Diaspora* software. Join your friends on Framasphère*, or any other Diaspora* pod — and begin to share without being tracked." data-placement="left" target="_blank" data-original-title="The Free and Libre social media network"><i class="fa fa-fw fa-lg fa-asterisk" aria-hidden="true"></i>&nbsp;Framasphère&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_piaf"><a href="https://framapiaf.org/" rel="popover" data-content="Framapiaf est un service libre de microblogging, basé sur le logiciel décentralisé Mastodon. Retrouvez vos amis sur Framapiaf - ou d’autres instances Mastodon, GNU Social, Friendica - et échangez avec eux sans être pisté." target="_blank" data-original-title="Réseau social en 500 caractères"><i class="fa fa-fw fa-lg fa-retweet" aria-hidden="true"></i>&nbsp;Framapiaf&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_team"><a href="https://framateam.org/" rel="popover" data-content="Framateam est un service de tchat libre qui permet de communiquer avec son équipe en notifiant ses collègues, de conserver ses conversations et d’y faire des recherches." data-placement="left" target="_blank" data-original-title="Communication collaborative"><i class="fa fa-fw fa-lg fa-comments-o" aria-hidden="true"></i>&nbsp;Framateam&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_listes"><a href="https://framalistes.org/" rel="popover" data-content="Framaforms sert à créer des listes de diffusion pour vous permettre d’envoyer des mails à l’ensemble des membres qui y sont inscrits." target="_blank" data-original-title="Liste de diffusion"><i class="fa fa-fw fa-lg fa-group" aria-hidden="true"></i>&nbsp;Framalistes&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_talk"><a href="https://framatalk.org/" rel="popover" data-content="Framatalk vous permet de discuter avec vos amis sans installation complexe de logiciel ni inscription. Tout se passe entre vous et vos amis, directement depuis votre navigateur web. " data-placement="left" target="_blank" data-original-title="Visioconférence"><i class="fa fa-fw fa-lg fa-video-camera" aria-hidden="true"></i>&nbsp;Framatalk&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_vox"><a href="https://framavox.org/" rel="popover" data-content="Framavox vous aide à prendre des décisions communautaires. Discutez, échangez, mettez-vous d’accord et passez à l’action, le tout dans les délais que vous vous êtes fixés au départ." target="_blank" data-original-title="Décider ensemble"><i class="fa fa-fw fa-lg fa-bullhorn" aria-hidden="true"></i>&nbsp;Framavox&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_petitions"><a href="https://framapetitions.org/" rel="popover" data-content="Framapetitions vous permet de lancer des pétitions sur les sujets qui vous tiennent à cœur. En quelques clics, votre pétition est publiée et les adresses de vos soutiens ne seront pas exploités par des régies publicitaires." data-placement="left" target="_blank" data-original-title="Des pétitions sans offrir les adresses de vos soutiens"><i class="fa fa-fw fa-lg fa-balance-scale" aria-hidden="true"></i>&nbsp;Framapetitions&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="fs_services fs_sites"><a href="https://framasites.org/" rel="popover" data-content="Framasites vous permet de créer un site web facilement, avec des outils libres et de l’héberger sur nos serveurs. Aucune publicité ni traquage ne portera atteinte aux données de vos visiteurs et visiteuses." target="_blank" data-original-title="Créez un site web qui respectera vos visiteurs"><i class="fa fa-fw fa-lg fa-globe" aria-hidden="true"></i>&nbsp;Framasites&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_memo"><a href="https://framemo.org/" rel="popover" data-content="Framemo est un service minimaliste qui permet d’éditer et d’organiser collaborativement des idées sous forme de notes" data-placement="left" target="_blank" data-original-title="Mettez vos idées au clair"><i class="fa fa-fw fa-lg fa-object-group" aria-hidden="true"></i>&nbsp;Framemo&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_notes"><a href="https://framanotes.org/" rel="popover" data-content="Framanotes vous permet d’enregistrer des informations, sous forme de notes, images, vidéos, ou pages web et d'y accéder de n'importe où." target="_blank" data-original-title="Prise de notes"><i class="fa fa-fw fa-lg fa-sticky-note" aria-hidden="true"></i>&nbsp;Framanotes&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_bag"><a href="https://framabag.org/" rel="popover" data-content="Framabag vous permet de mettre de côté les articles que vous n’avez pas le temps de lire tout de suite." data-placement="left" target="_blank" data-original-title="Ne ratez plus aucun article&nbsp;!"><i class="fa fa-fw fa-lg fa-briefcase" aria-hidden="true"></i>&nbsp;Framabag&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_news"><a href="https://framanews.org/" rel="popover" data-content="Suscribe to RSS feed of your favorite sites, stay in tune with the news with Framanews!" target="_blank" data-original-title="Stay tuned to the news"><i class="fa fa-fw fa-lg fa-newspaper-o" aria-hidden="true"></i>&nbsp;Framanews&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="fs_services fs_games"><a href="http://framagames.org/" rel="popover" data-content="Framagames is a compilation of free games you can play online or download on your computer, or your tablet… You need no prior install to play." data-placement="left" target="_blank" data-original-title="Play online or offline"><i class="fa fa-fw fa-lg fa-gamepad" aria-hidden="true"></i>&nbsp;Framagames&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_minetest"><a href="https://framinetest.org/" rel="popover" data-content="Framinetest Édu est un monde du jeu « bac à sable » Minetest (monde de blocs à modifier) dédié à l'éducation, aux activités pédagogiques et au &lt;i lang='en'&gt;serious gaming&lt;/i&gt;." target="_blank" data-original-title="L’alternative libre à Minecraft"><i class="fa fa-fw fa-lg fa-cube" aria-hidden="true"></i>&nbsp;Framinetest&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="fs_services fs_drive"><a href="https://framadrive.org/" rel="popover" data-content="Framadrive lets you upload your documents online, synchronize them on your other devices… and share them with the contacts you select." data-placement="left" target="_blank" data-original-title="Host documents online"><i class="fa fa-fw fa-lg fa-cloud-upload" aria-hidden="true"></i>&nbsp;Framadrive&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_drop"><a href="https://framadrop.org/" rel="popover" data-content="With Framadrop, say goodbye to big attachment files that cannot be sent over your mail client. This Free and libre service lets you share your documents easily and securely." target="_blank" data-original-title="Sharing files in a confidential way"><i class="fa fa-fw fa-lg fa-send" aria-hidden="true"></i>&nbsp;Framadrop&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_bin"><a href="https://framabin.org/" rel="popover" data-content="Framabin lets you share information that only you and the sendee can decrypt, in a simple easy way." data-placement="left" target="_blank" data-original-title="Send encrypted data"><i class="fa fa-fw fa-lg fa-paste" aria-hidden="true"></i>&nbsp;Framabin&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_pic"><a href="https://framapic.org/" rel="popover" data-content="Framapic is your online resource to share pics, e.g to show them on Twitter, Facebook, or… Framasphère !" target="_blank" data-original-title="Sharing pictures in a confidential way"><i class="fa fa-fw fa-lg fa-photo" aria-hidden="true"></i>&nbsp;Framapic&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_link"><a href="https://frama.link/" rel="popover" data-content="With Frama.link, you can shorten longish URLs. On social media and microblogging, a shortened link spares you energy and is clearer." data-placement="left" target="_blank" data-original-title="Links shortening"><i class="fa fa-fw fa-lg fa-link" aria-hidden="true"></i>&nbsp;Framalink&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_git"><a href="https://framagit.org/" rel="popover" data-content="Framagit is a tool for developers. You can host your free and libre software and manage your work with easy access for contributors." target="_blank" data-original-title="Hosting code in the open"><i class="fa fa-fw fa-lg fa-git" aria-hidden="true"></i>&nbsp;Framagit&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="fs_services fs_site"><a href="https://frama.site/" rel="popover" data-content="Framasite vous permet de créer un site web facilement et de l’héberger sur nos serveurs. Aucune publicité ni traquage ne portera atteinte aux données de vos visiteurs et visiteuses." data-placement="left" target="_blank" data-original-title="Hébergement de sites"><i class="fa fa-fw fa-lg fa-globe" aria-hidden="true"></i>&nbsp;Framasite&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_services fs_wiki"><a href="https://frama.wiki/" rel="popover" data-content="Framasoft Wiki" target="_blank" data-original-title="Framawiki"><i class="fa fa-fw fa-lg fa-puzzle-piece" aria-hidden="true"></i>&nbsp;Framawiki&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="fs_services fs_my"><a href="https://my.framasoft.org/" rel="popover" data-content="MyFrama est un petit fourre-tout numérique, qui vous permet de conserver et retrouver les liens que vous aimez à la manière de del.ico.us&nbsp;! Avec un système d´étiquettes et de tri automatique, vous pouvez ranger aisément vos onglets et marque-pages, et utiliser le bouton MyFrama pour retrouver les services Framasoft que vous utilisez&nbsp;!" data-placement="left" target="_blank" data-original-title="Marquez et partagez vos liens"><i class="fa fa-fw fa-lg fa-star" aria-hidden="true"></i>&nbsp;MyFrama&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li></ul></li><li class="dropdown" id="fs_follow"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Follow us<b class="caret"></b></a><ul class="dropdown-menu"><li class="fs_follow fs_diaspora"><a href="https://framasphere.org/u/framasoft" rel="popover" data-content="Our account on free social media network Diaspora*" target="_blank" data-original-title="Framasoft on Diaspora*"><i class="fa fa-fw fa-lg fa-asterisk" aria-hidden="true"></i>&nbsp;Diaspora*&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_follow fs_mastodon"><a href="https://framapiaf.org/@Framasoft" rel="popover" data-content="Our account on free social media network Mastodon" target="_blank" data-original-title="Framasoft on Mastodon"><i class="fa fa-fw fa-lg fa-retweet" aria-hidden="true"></i>&nbsp;Mastodon&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_follow fs_twitter"><a href="https://twitter.com/framasoft" rel="popover" data-content="Bien que Twitter ne soit pas libre, Framasoft y a un compte afin de sensibiliser le public qui ne connait pas le libre là où il se trouve.&lt;br&gt;Nous vous invitons évidemment à &lt;b&gt;nous suivre plutôt sur Mastodon&lt;/b&gt;, mais on ne vous en voudra pas si vous le faites sur Twitter 😉" target="_blank" data-original-title="Framasoft on Twitter (we know it is bad…)"><i class="fa fa-fw fa-lg fa-twitter" aria-hidden="true"></i>&nbsp;Twitter&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_follow fs_facebook"><a href="https://www.facebook.com/framasoft" rel="popover" data-content="Bien que Facebook ne soit pas libre, Framasoft y a un compte afin de sensibiliser le public qui ne connait pas le libre là où il se trouve.&lt;br&gt;Nous vous invitons évidemment à &lt;b&gt;nous suivre plutôt sur Diaspora*&lt;/b&gt;, mais on ne vous en voudra pas si vous le faites sur Facebook 😉" target="_blank" data-original-title="Framasoft on Facebook (we know it is very bad…)"><i class="fa fa-fw fa-lg fa-facebook" aria-hidden="true"></i>&nbsp;Facebook&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_follow fs_gplus"><a href="https://plus.google.com/113481533567002271362" rel="popover" data-content="Bien que Google+ ne soit pas libre, Framasoft y a un compte afin de sensibiliser le public qui ne connait pas le libre là où il se trouve.&lt;br&gt;Nous vous invitons évidemment à &lt;b&gt;nous suivre plutôt sur Diaspora*&lt;/b&gt;, mais on ne vous en voudra pas si vous le faites sur Google+ (ou alors juste un peu 😉)" target="_blank" data-original-title="Framasoft on Google+ (shame on us)"><i class="fa fa-fw fa-lg fa-google-plus" aria-hidden="true"></i>&nbsp;Google+&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="fs_follow fs_newsletter"><a href="https://contact.framasoft.org/newsletter" rel="popover" data-content="Join &lt;strong&gt;75 000&lt;/strong&gt; registered people on our newsletter." target="_blank" data-original-title="Newsletter"><i class="fa fa-fw fa-lg fa-envelope-o" aria-hidden="true"></i>&nbsp;Newsletter&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_follow fs_rss"><a href="https://rss.framasoft.org/" rel="popover" data-content="RSS feed aggregating various sites." target="_blank" data-original-title="RSS"><i class="fa fa-fw fa-lg fa-rss" aria-hidden="true"></i>&nbsp;Flux RSS&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_follow fs_wikipedia"><a href="https://fr.wikipedia.org/wiki/Framasoft" rel="popover" data-content="Browse our (longish) blogpost on the unbelieveable Free Wikipedia service." target="_blank" data-original-title="Framasoft blopost about Wikipedia"><i class="fa fa-fw fa-lg fa-wikipedia-w" aria-hidden="true"></i>&nbsp;Wikipédia&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="fs_follow fs_colibri"><a href="https://framacolibri.org/" rel="popover" data-content="Have you any question? We may have an answer!" target="_blank" data-original-title="Framasoft network forum"><i class="fa fa-fw fa-lg fa-comment" aria-hidden="true"></i>&nbsp;Framacolibri&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_follow fs_wiki2"><a href="https://wiki.framasoft.org/" rel="popover" data-content="Le wiki de Framasoft" target="_blank" data-original-title="Framawiki"><i class="fa fa-fw fa-lg fa-puzzle-piece" aria-hidden="true"></i>&nbsp;Framawiki&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li></ul></li><li class="dropdown" id="fs_about"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a><ul class="dropdown-menu"><li class="dropdown-header"><b class="violet">Frama</b><b class="orange">soft</b></li><li role="presentation" class="divider"></li><li class="fs_about fs_asso"><a href="https://soutenir.framasoft.org/association" data-placement="left" target="_blank"><i class="fa fa-fw fa-lg fa-home" aria-hidden="true"></i>&nbsp;Our association&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_about fs_participer"><a href="https://participer.framasoft.org/en/" target="_blank"><i class="fa fa-fw fa-lg fa-paw" aria-hidden="true"></i>&nbsp;Participate&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_about fs_charte"><a href="https://framasoft.org/nav/html/charte.en.html" data-placement="left" target="_blank"><i class="fa fa-fw fa-lg fa-heart" aria-hidden="true"></i>&nbsp;Our chart&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_about fs_benevalo"><a href="https://soutenir.framasoft.org/benevolat" target="_blank"><i class="fa fa-fw fa-lg fa-trophy" aria-hidden="true"></i>&nbsp;Volunteering&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_about fs_contact"><a href="https://contact.framasoft.org/" rel="popover" data-content="Do you wish to contact us?" data-placement="left" target="_blank" data-original-title="Contact Framasoft"><i class="fa fa-fw fa-lg fa-envelope" aria-hidden="true"></i>&nbsp;Contact us&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_about fs_partenaires"><a href="https://soutenir.framasoft.org/partenaires" target="_blank"><i class="fa fa-fw fa-lg fa-group" aria-hidden="true"></i>&nbsp;Partners&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_about fs_stats"><a href="http://framastats.org/" data-placement="left" target="_blank"><i class="fa fa-fw fa-lg fa-line-chart" aria-hidden="true"></i>&nbsp;Metrics&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_about fs_status"><a href="https://status.framasoft.org/" target="_blank"><i class="fa fa-fw fa-lg fa-heartbeat" aria-hidden="true"></i>&nbsp;Services review&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="fs_about fs_doc"><a href="https://docs.framasoft.org/en/" data-placement="left" target="_blank"><i class="fa fa-fw fa-lg fa-graduation-cap" aria-hidden="true"></i>&nbsp;Documentation&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_about fs_faq"><a href="https://contact.framasoft.org/foire-aux-questions/" target="_blank"><i class="fa fa-fw fa-lg fa-question-circle" aria-hidden="true"></i>&nbsp;FAQ&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_about fs_aide"><a href="https://contact.framasoft.org/#aide" data-placement="left" target="_blank"><i class="fa fa-fw fa-lg fa-life-ring" aria-hidden="true"></i>&nbsp;Help&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_about fs_legals"><a href="https://framasoft.org/nav/html/legals.html#hetzner" target="_blank"><i class="fa fa-fw fa-lg fa-university" aria-hidden="true"></i>&nbsp;Legals&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_about fs_cgu"><a href="https://framasoft.org/nav/html/cgu.html" data-placement="left" target="_blank"><i class="fa fa-fw fa-lg fa-legal" aria-hidden="true"></i>&nbsp;Terms of Use&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_about fs_credits"><a href="https://framasoft.org/nav/html/credits.html#cloud" target="_blank"><i class="fa fa-fw fa-lg fa-creative-commons" aria-hidden="true"></i>&nbsp;Credits&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="dropdown-header"><b>Campaigns<b></b></b></li><li role="presentation" class="divider"></li><li class="fs_about fs_dio2 dropdown-header"><a href="https://degooglisons-internet.org/?l=en" rel="popover" data-content="Online services as provided by hegemonic giants such as Google, Amazon, Facebook, Apple or Microsoft (GAFAM) are putting our digital life and privacy at risk. &lt;b class='violet'&gt;Frama&lt;/b&gt;&lt;b class='orange'&gt;soft&lt;/b&gt; was indulging in a big challenge : offer, with your help, a Libre, Ethic, Decentralized and Solidary alternative for every popular service." data-placement="left" class="text-left" target="_blank" data-original-title="&lt;b class='violet'&gt;De-googl-ize&lt;/b&gt; &lt;b class='orange'&gt;Internet&lt;/b&gt; : an ambitions campaign."><i class="fa fa-fw fa-lg " aria-hidden="true"></i>&nbsp;<b>2014-2017</b> : De-googl-ify Internet&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="fs_about fs_cuo dropdown-header"><a href="https://contributopia.org/en/home" rel="popover" data-content="&lt;b class='violet'&gt;Frama&lt;/b&gt;&lt;b class='orange'&gt;soft&lt;/b&gt; invites you on an exciting journey: let's explore digital worlds together. worlds where computer tools are conceived in collaboration, where respectful practices swarm and pollinate, where the doors of contribution open." class="text-left" target="_blank" data-original-title="&lt;b class='violet'&gt;Contrib&lt;/b&gt;&lt;b class='orange'&gt;utopia&lt;/b&gt; : de-googl-ify is not enough"><i class="fa fa-fw fa-lg " aria-hidden="true"></i>&nbsp;<b>2017-2020</b> : Contributopia&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li role="presentation" class="divider"></li><li class="framanav-mobile" style="display: none;"><a href="javascript:void(0);" target="_blank"><i class="fa fa-fw fa-lg fa-mobile" aria-hidden="true"></i>&nbsp;Activate mobile mode&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li><li class="framanav-desktop visible-xs-inline" style="display: list-item;"><a href="javascript:void(0);" data-placement="left" target="_blank"><i class="fa fa-fw fa-lg fa-desktop" aria-hidden="true"></i>&nbsp;Deactivate mobile mode&nbsp;<i class="fa fa-external-link new-window" aria-hidden="true"></i><span class="sr-only">(new window)</span></a></li></ul></li><li><a href="https://soutenir.framasoft.org/en//?f=nav" class="btn-soutenir" rel="popover" data-content="Framasoft would not exist without our strong volunteer community but could not work anyway without the association which pays seven permanent employees. Our funding relies on you, which means every individual donation. If you think we deserve it…" data-placement="bottom" data-original-title="Because free as in “free speech” doesn't mean free as in “free beer”"><i class="fa fa-fw fa-lg fa-heart" aria-hidden="true"></i>&nbsp;Make a donation&nbsp;?</a></li><li id="btn-benevalo"><a href="https://soutenir.framasoft.org/node/add/benevalo" class="btn-info" rel="popover" data-content="Amis bénévoles, vous avez contribué récemment à l’activité de Framasoft&nbsp;? C’est le moment de remplir votre bénévolat valorisé. Le «&nbsp;bénévalo&nbsp;» permet de rendre compte de l’activité des bénévoles et de confirmer que Framasoft reste bien une association majoritairement non lucrative. C’est important pour nous." data-placement="bottom" data-original-title="Le bénévolat valorisé, qu’est-ce que c’est&nbsp;?"><i class="fa fa-fw fa-lg fa-paw" aria-hidden="true"></i>&nbsp;Bénévalo</a></li><li id="btn-myframa"><a href="https://my.framasoft.org/?post=https%3A%2F%2Fframacloud.org%2Ffr%2Fcultiver-son-jardin%2Fturtl.html%23rethinkdb&amp;title=Framanotes%20%2F%20Turtl%20%C2%B7%20GitBook&amp;description=&amp;source=bookmarklet" class="btn-primary" rel="popover" data-content="MyFrama est un service en ligne libre de partage de lien." data-placement="bottom" data-original-title="Marquez et partagez vos liens"><i class="fa fa-fw fa-lg fa-star" aria-hidden="true"></i>&nbsp;MyFrama</a></li></ul></div></div><a id="nav-end" class="sr-only"></a></nav><a href="https://soutenir.framasoft.org/en//?f=macaron" id="framanav_donation" rel="donBadge" style="display:none" class="hidden-xs"><span class="sr-only">Make a donation&nbsp;?</span></a></div>
+        
+    
+<div class="book font-size-2 font-family-1">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input placeholder="Tapez pour rechercher" type="text">
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="https://framacloud.org/fr/">
+            
+                    
+                    Accueil
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Tutoriels</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="./">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/">
+            
+                    
+                    Cultiver son jardin
+            
+                </a>
+            
+
+            
+            <ul class="articles" style="">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="nextcloud.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/nextcloud.html">
+            
+                    
+                    Framagenda / Nextcloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="wallabag.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/wallabag.html">
+            
+                    
+                    Framabag / Wallabag
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="searx.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/searx.html">
+            
+                    
+                    Framabee / Searx
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="zerobin.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/zerobin.html">
+            
+                    
+                    Framabin / Zerobin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="kanboard.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/kanboard.html">
+            
+                    
+                    Framaboard / Kanboard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="bicbucstriim.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/bicbucstriim.html">
+            
+                    
+                    Framabookin / Bicbucstriim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" data-path="umap.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/umap.html">
+            
+                    
+                    Framacarte / uMap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.8" data-path="framadate.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/framadate.html">
+            
+                    
+                    Framadate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9" data-path="nextcloud.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/nextcloud.html">
+            
+                    
+                    Framadrive / Nextcloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.10" data-path="lufi.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/lufi.html">
+            
+                    
+                    Framadrop / Lufi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.11" data-path="framaforms.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/framaforms.html">
+            
+                    
+                    Framaforms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.12" data-path="gitlab.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/gitlab.html">
+            
+                    
+                    Framagit / Gitlab
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.13" data-path="lstu.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/lstu.html">
+            
+                    
+                    Framalink / LSTU
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.14" data-path="sympa.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/sympa.html">
+            
+                    
+                    Framaliste / Sympa
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.15" data-path="framaestro.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/framaestro.html">
+            
+                    
+                    Framaestro
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.16" data-path="scrumblr.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/scrumblr.html">
+            
+                    
+                    Framemo / Scrumblr
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.17" data-path="wisemapping.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/wisemapping.html">
+            
+                    
+                    Framindmap / Wisemapping
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.18" data-path="minetest.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/minetest.html">
+            
+                    
+                    Framinetest / Minetest
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.19" data-path="ttrss.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/ttrss.html">
+            
+                    
+                    Framanews / TinyTinyRSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.1.20" data-path="turtl.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/turtl.html">
+            
+                    
+                    Framanotes / Turtl
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.21" data-path="etherpad.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/etherpad.html">
+            
+                    
+                    Framapad / Etherpad
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.22" data-path="mastodon.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/mastodon.html">
+            
+                    
+                    Framapiaf / Mastodon
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.23" data-path="lutim.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/lutim.html">
+            
+                    
+                    Framapic / Lutim
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.24" data-path="framaslides.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/framaslides.html">
+            
+                    
+                    Framaslides / Strut
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.25" data-path="jitsi-meet.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/jitsi-meet.html">
+            
+                    
+                    Framatalk / Jitsi Meet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.26" data-path="gitlab.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/gitlab.html">
+            
+                    
+                    Framateam / Mattermost
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.27" data-path="svg-edit.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/svg-edit.html">
+            
+                    
+                    Framavectoriel / SVG-Edit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.28" data-path="loomio.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/loomio.html">
+            
+                    
+                    Framavox / Loomio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.29" data-path="shaarli.html">
+            
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/shaarli.html">
+            
+                    
+                    MyFrama / Shaarli
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../cabane-a-outils/">
+            
+                <a href="https://framacloud.org/fr/cabane-a-outils/">
+            
+                    
+                    Cabane à outils
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../echange-de-graines/">
+            
+                <a href="https://framacloud.org/fr/echange-de-graines/">
+            
+                    
+                    Échange de graines
+            
+                </a>
+            
+
+            
+            <ul class="articles" style="display: none;">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../echange-de-graines/resoudre-un-temps-de-login-trop-long.html">
+            
+                <a href="https://framacloud.org/fr/echange-de-graines/resoudre-un-temps-de-login-trop-long.html">
+            
+                    
+                    Résoudre un temps de login trop long
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../echange-de-graines/trouver-quel-processus-utilise-un-port.html">
+            
+                <a href="https://framacloud.org/fr/echange-de-graines/trouver-quel-processus-utilise-un-port.html">
+            
+                    
+                    Trouver quel processus utilise un port
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../echange-de-graines/debloquer-un-raid-coince-en-resyncpending.html">
+            
+                <a href="https://framacloud.org/fr/echange-de-graines/debloquer-un-raid-coince-en-resyncpending.html">
+            
+                    
+                    Débloquer un RAID coincé en resync PENDING
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="../echange-de-graines/ajouter-une-autorite-de-certification-a-debian.html">
+            
+                <a href="https://framacloud.org/fr/echange-de-graines/ajouter-une-autorite-de-certification-a-debian.html">
+            
+                    
+                    Ajouter une autorité de certification à Debian
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" data-path="../echange-de-graines/astuces-sur-requesttracker.html">
+            
+                <a href="https://framacloud.org/fr/echange-de-graines/astuces-sur-requesttracker.html">
+            
+                    
+                    Astuces sur RequestTracker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6" data-path="../echange-de-graines/supprimer-tous-les-mails-de-la-file-dattente-de-postfix-pour-un-domaine-particulier.html">
+            
+                <a href="https://framacloud.org/fr/echange-de-graines/supprimer-tous-les-mails-de-la-file-dattente-de-postfix-pour-un-domaine-particulier.html">
+            
+                    
+                    Supprimer tous les mails de la file d'attente postfix pour un domaine particulier
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.7" data-path="../echange-de-graines/personnaliser-son-instance-gitlab-le-script-de-framasoft.html">
+            
+                <a href="https://framacloud.org/fr/echange-de-graines/personnaliser-son-instance-gitlab-le-script-de-framasoft.html">
+            
+                    
+                    Personnaliser son instance Gitlab : le script de Framasoft
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.8" data-path="../echange-de-graines/cross-compilation-de-rethinkdb-pour-processeur-arm.html">
+            
+                <a href="https://framacloud.org/fr/echange-de-graines/cross-compilation-de-rethinkdb-pour-processeur-arm.html">
+            
+                    
+                    Cross-compilation de RethinkDB pour processeur ARM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Guides</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../auto-hebergement/">
+            
+                <a href="https://framacloud.org/fr/auto-hebergement/">
+            
+                    
+                    L'auto-hébergement facile
+            
+                </a>
+            
+
+            
+            <ul class="articles" style="display: none;">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../auto-hebergement/intro.html">
+            
+                <a href="https://framacloud.org/fr/auto-hebergement/intro.html">
+            
+                    
+                    1 — L’auto-hébergement
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../auto-hebergement/prerequis.html">
+            
+                <a href="https://framacloud.org/fr/auto-hebergement/prerequis.html">
+            
+                    
+                    2 — Pré-requis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="../auto-hebergement/installation.html">
+            
+                <a href="https://framacloud.org/fr/auto-hebergement/installation.html">
+            
+                    
+                    3 — Installation de services
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="../auto-hebergement/services_web.html">
+            
+                <a href="https://framacloud.org/fr/auto-hebergement/services_web.html">
+            
+                    
+                    4 — Services web
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.5" data-path="../auto-hebergement/sauvegarde.html">
+            
+                <a href="https://framacloud.org/fr/auto-hebergement/sauvegarde.html">
+            
+                    
+                    5 — Serveur de sauvegarde
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6" data-path="../auto-hebergement/securite.html">
+            
+                <a href="https://framacloud.org/fr/auto-hebergement/securite.html">
+            
+                    
+                    6 — Sécuriser son serveur
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.7" data-path="../auto-hebergement/bdd.html">
+            
+                <a href="https://framacloud.org/fr/auto-hebergement/bdd.html">
+            
+                    
+                    7 — Les bases de données
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.8" data-path="../auto-hebergement/divers.html">
+            
+                <a href="https://framacloud.org/fr/auto-hebergement/divers.html">
+            
+                    
+                    8 — Divers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.9" data-path="../auto-hebergement/refs.html">
+            
+                <a href="https://framacloud.org/fr/auto-hebergement/refs.html">
+            
+                    
+                    Références
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com/" target="blank" class="gitbook-link">
+            Publié avec GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <a class="btn pull-left js-toolbar-action" aria-label="" href="#"><i class="fa fa-align-justify"></i></a><a class="btn pull-left js-toolbar-action" aria-label="" href="#"><i class="fa fa-edit"></i> Modifier cette page</a><div class="dropdown pull-right js-toolbar-action"><a class="btn toggle-dropdown" aria-label="Share" href="#"><i class="fa fa-share-alt"></i></a><div class="dropdown-menu dropdown-left"><div class="dropdown-caret"><span class="caret-outer"></span><span class="caret-inner"></span></div><div class="buttons"><button class="button size-5 ">Facebook</button><button class="button size-5 ">Google+</button><button class="button size-5 ">Twitter</button><button class="button size-5 ">Weibo</button><button class="button size-5 ">Instapaper</button></div></div></div><a class="btn pull-right js-toolbar-action" aria-label="" href="#"><i class="fa fa-facebook"></i></a><a class="btn pull-right js-toolbar-action" aria-label="" href="#"><i class="fa fa-twitter"></i></a><div class="dropdown pull-left font-settings js-toolbar-action"><a class="btn toggle-dropdown" aria-label="Font Settings" href="#"><i class="fa fa-font"></i></a><div class="dropdown-menu dropdown-right"><div class="dropdown-caret"><span class="caret-outer"></span><span class="caret-inner"></span></div><div class="buttons"><button class="button size-2 font-reduce">A</button><button class="button size-2 font-enlarge">A</button></div><div class="buttons"><button class="button size-2 ">Serif</button><button class="button size-2 ">Sans</button></div><div class="buttons"><button class="button size-3 ">White</button><button class="button size-3 ">Sepia</button><button class="button size-3 ">Night</button></div></div></div><h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="https://framacloud.org/fr/">Framanotes / Turtl</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <nav class="page-toc"><ul><li><a href="#installation-de-turtl">Installation de Turtl</a></li><ul><li><a href="#nourrir-la-terre">Nourrir la terre</a></li><ul><li><a href="#common-lisp">Common Lisp</a></li><li><a href="#rethinkdb">RethinkDB</a></li></ul><li><a href="#semer">Semer</a></li><li><a href="#arroser">Arroser</a></li><li><a href="#regarder-pousser">Regarder pousser</a></li><li><a href="#désherber">Désherber</a></li></ul></ul></nav><h1 id="installation-de-turtl"><a class="anchorjs-link " href="#installation-de-turtl" aria-label="Anchor link for: installation de turtl" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: inherit; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Installation de Turtl</h1>
+<p><a href="https://turtlapp.com/" target="_blank">Turtl</a> est un logiciel libre distribué sous <a href="https://github.com/turtl/api/blob/master/LICENSE" target="_blank">licence AGPLv3</a>
+qui a pour objectif de fournir un système de notes synchronisables sur
+(presque) toutes les plateformes (presque parce l'application iOS n'est
+pas encore lancée).
+Il s'agit de la solution logicielle qui propulse le service en ligne <a href="https://framanotes.org/" target="_blank">Framanotes</a>.</p>
+<div class="alert alert-info">
+  Ce guide est prévu pour Debian Stable. À l'heure où nous écrivons ces
+  mots, il s'agit de Debian 8.6 Jessie.
+  Nous partons du principe que vous venez d'installer le système,
+  que celui-ci est à jour et que vous avez déjà installé le serveur web
+  <a href="http://nginx.org/" target="_blank">Nginx</a>.<br>
+  Nous considérerons que nous installerons Turtl sous l'utilisateur <code>www-data</code>.
+</div>
+
+<h2 id="nourrir-la-terre"><a class="anchorjs-link " href="#nourrir-la-terre" aria-label="Anchor link for: nourrir la terre" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: inherit; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Nourrir la terre</h2>
+<p><img src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/preparer.png" alt=""></p>
+<p>La partie serveur de Turtl est codée en <a href="https://common-lisp.net/" target="_blank">Common Lisp</a> et utilise le
+moteur de base de données <a href="https://www.rethinkdb.com/" target="_blank">RethinkDB</a>.</p>
+<p>Nous allons donc devoir avant tout les installer.</p>
+<h3 id="common-lisp"><a class="anchorjs-link " href="#common-lisp" aria-label="Anchor link for: common lisp" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: inherit; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Common Lisp</h3>
+<p>Common Lisp possède plusieures implémentations différentes.
+Nous utiliserons <a href="http://ccl.clozure.com/" target="_blank">Clozure Common Lisp</a> car <a href="http://www.sbcl.org/" target="_blank">Steel Bank Common Lisp</a>,
+qui a pourtant l'avantage d'être dans les paquets Debian
+(sous le petit nom de <code>sbcl</code>), pose quelques problèmes avec Turtl.</p>
+<p>Installation de Clozure CL :</p>
+<pre><code>cd /opt
+wget ftp://ftp.clozure.com/pub/release/1.11/ccl-1.11-linuxx86.tar.gz
+tar xvf ccl-1.11-linuxx86.tar.gz
+cd ccl
+cp scripts/ccl64 /usr/bin/ccl
+sed -e "s@CCL_DEFAULT_DIRECTORY=/usr/local/src/ccl@CCL_DEFAULT_DIRECTORY=/opt/ccl@" -i /usr/bin/ccl
+</code></pre><p>Nous aurons besoin de quelques paquets du système pour les dépendances de Turtl.
+Mais avant cela, nous avons besoin d'ajouter les dépôts <code>jessie-backports</code>
+sur notre système : une des dépendances n'est pas disponible dans les dépôts stable.</p>
+<pre><code>echo "deb http://ftp.debian.org/debian jessie-backports main" &gt; /etc/apt/sources.list.d/backports.list
+apt-get update
+</code></pre><p>Installons maintenant les dépendances :</p>
+<pre><code>apt-get install cl-cffi cl-quicklisp libuv1-dev build-essential
+</code></pre><p>Nous allons maintenant configurer un peu l'environnement de l'utilisateur
+<code>www-data</code> pour qu'il puisse lancer Turtl sans souci.</p>
+<p>Il faut commencer par créer le fichier <code>~www-data/.ccl-init.lisp</code>
+(<code>~www-data</code> signifie « le répertoire personnel de www-data » pour le
+système, soit <code>/var/www</code> dans une Debian) et y mettre ceci :</p>
+<pre><code>#-quicklisp
+(let ((quicklisp-init (merge-pathnames "quicklisp/setup.lisp" (user-homedir-pathname))))
+  (when (probe-file quicklisp-init)
+    (load quicklisp-init)))
+</code></pre><p>Il faudra aussi créer quelques répertoires et corriger les permissions :</p>
+<pre><code>mkdir ~www-data/quicklisp ~www-data/.cache/
+chown www-data: ~www-data/quicklisp ~www-data/.cache/ ~www-data/.ccl-init.lisp
+</code></pre><p>Explication : <a href="https://www.quicklisp.org/beta/" target="_blank">Quicklisp</a> est un gestionnaire de dépendances pour
+Common Lisp. Nous l'avons installé via les paquets du système
+(<code>cl-quicklisp</code>), nous indiquons que <code>www-data</code> doit le charger
+lorsqu'il utilise <code>ccl</code> et enfin nous créons les dossiers où Quicklisp
+va compiler et installer les dépendances.</p>
+<p>Initialisons Quicklisp :</p>
+<pre><code>su www-data -s /bin/bash
+ccl --load /usr/share/cl-quicklisp/quicklisp.lisp
+</code></pre><p>Dans la console Lisp, tapez :</p>
+<pre><code>(quicklisp-quickstart:install)
+(quit)
+</code></pre><p>Puis, de retour au shell :</p>
+<pre><code>echo "(pushnew \"./\" asdf:*central-registry* :test #'equal)" &gt;&gt; ~www-data/.ccl-init.lisp
+</code></pre><h3 id="rethinkdb"><a class="anchorjs-link " href="#rethinkdb" aria-label="Anchor link for: rethinkdb" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: inherit; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>RethinkDB</h3>
+<p>Pour l'installation, nous suivons la procédure de la <a href="https://www.rethinkdb.com/docs/install/debian/" target="_blank">documentation officielle</a> :</p>
+<pre><code>echo "deb http://download.rethinkdb.com/apt `lsb_release -cs` main" | tee /etc/apt/sources.list.d/rethinkdb.list
+wget -qO- https://download.rethinkdb.com/apt/pubkey.gpg | apt-key add -
+apt-get update
+apt-get install rethinkdb
+</code></pre><p>Si vous souhaitez utiliser Turtl sur un ordinateur 
+utilisant un processeur à architecture ARM comme le Raspberry Pi, suivez
+ cette <a href="https://framacloud.org/fr/echange-de-graines/cross-compilation-de-rethinkdb-pour-processeur-arm.html">procédure</a>
+ pour cross-compiler RethinkDB via Docker (la compilation de RethinkDB 
+sur le Raspberry Pi prendrait énormément de temps, la cross-compilation 
+permet de compiler RethinkDB pour ARM depuis un autre ordinateur plus 
+puissant) puis installez le paquet créé avec <code>dpkg</code>.</p>
+<p>Créons une instance pour Turtl et lançons-la :</p>
+<pre><code>echo "http-port=8091" &gt; /etc/rethinkdb/instances.d/turtl.conf
+service rethinkdb restart
+</code></pre><p>Il est toujours bon d'être capable de sauvegarder et restaurer sa base de données.</p>
+<p>Installation des dépendances :</p>
+<pre><code>apt-get install python-pip
+pip install rethinkdb
+</code></pre><p>Création d'une sauvegarde :</p>
+<pre><code>rethinkdb dump
+</code></pre><p>Restauration d'une sauvegarde :</p>
+<pre><code>rethinkdb restore backup.tar.gz
+</code></pre><h2 id="semer"><a class="anchorjs-link " href="#semer" aria-label="Anchor link for: semer" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: inherit; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Semer</h2>
+<p><img src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/semer.png" alt=""></p>
+<p>Créons quelques dossiers nécessaires :</p>
+<pre><code>cd /var/www
+mkdir turtl/data -p
+</code></pre><p>Passons maintenant à l'installation de Turtl proprement dite :</p>
+<pre><code>cd turtl
+git clone https://github.com/turtl/api.git
+cd api
+# Copions le modèle de fichier de configuration
+cp config/config.default.lisp config/config.lisp
+</code></pre><p>Voici les principaux paramètres à modifier dans <code>config/config.lisp</code> :</p>
+<pre><code># Ne faire écouter le serveur qu'en local
+(defvar *server-bind* "127.0.0.1"
+# Faire en sorte que les erreurs ne soient pas fatales au serveur
+# et ne le fassent pas planter en boucle
+(defvar *production-error-handling* t
+# Autoriser les requêtes depuis un autre site web (ce sera notre interface web)
+# https ou http, c'est selon ce que vous mettrez en place,
+# mais il est évident qu'il est mieux de sécuriser les communications
+(defvar *enabled-cors-resources* "https://notes.example.org"
+# L'adresse de l'API
+# https ou http, c'est selon ce que vous mettrez en place,
+# mais il est évident qu'il est mieux de sécuriser les communications
+(defvar *site-url* "https://api.notes.examples.org"
+# Une adresse de contact
+(defvar *admin-email* "contact@example.org"
+# L'adresse d'envoi de mail
+(defvar *email-from* "noreply@example.org"
+# L'adresse du serveur SMTP à utiliser pour envoyer les mails
+(defvar *smtp-host* "localhost")
+# Ne pas envoyer les erreurs
+# (utile pour le debug, pas pour la production)
+(defvar *display-errors* nil
+# La limite de stockage par défaut (en Mio)
+(defparameter *default-storage-limit* 100
+# Est-ce qu'on offre du stockage en plus à ceux qui invitent des amis ? (en Mio)
+(defparameter *storage-invite-credit* 0
+# Où stocker les fichiers
+(defvar *local-upload* "/var/www/turtl/data"
+# L'adresse d'envoi des fichiers
+# https ou http, c'est selon ce que vous mettrez en place,
+# mais il est évident qu'il est mieux de sécuriser les communications
+(defvar *local-upload-url* "https://api.notes.example.org"
+</code></pre><p>Nous pouvons dès lors lancer le service à la main :</p>
+<pre><code>ccl --load start.lisp
+</code></pre><p>(Faites Ctrl+C puis <code>(quit)</code> pour le couper)</p>
+<h2 id="arroser"><a class="anchorjs-link " href="#arroser" aria-label="Anchor link for: arroser" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: inherit; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Arroser</h2>
+<p><img src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/arroser.png" alt=""></p>
+<p>Installons un service systemd pour lancer Turtl : cela évite de devoir
+laisser un terminal ouvert et permettra de lancer automatiquement Turtl
+au démarrage du serveur.</p>
+<p>Créez le fichier <code>/etc/systemd/system/turtl.service</code> :</p>
+<pre><code>[Unit]
+Description=Note taking service
+Documentation=http://turtl.it
+Requires=network.target
+Requires=rethinkdb.service
+After=network.target
+After=rethinkdb.service
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/var/www/turtl/api/
+ExecStart=/usr/bin/ccl -Q -b --load start.lisp
+
+[Install]
+WantedBy=multi-user.target
+</code></pre><p>Ensuite, pour activer et lancer Turtl :</p>
+<pre><code>systemctl daemon-reload
+systemctl start turtl
+systemctl enable turtl
+</code></pre><p>Normalement, vous retrouverez les logs de votre serveur Turtl dans
+<code>/var/log/syslog</code>. Pour les consulter :</p>
+<pre><code>grep ccl /var/log/syslog
+# ou
+multitail -e ccl /var/log/syslog
+</code></pre><p>Rendons maintenant notre Turtl accessible depuis l'extérieur grâce à Nginx.</p>
+<p>Créez le fichier <code>/etc/nginx/sites-available/api.notes.example.org.conf</code> :</p>
+<pre><code>upstream turtl {
+    server 127.0.0.1:8181;
+}
+
+client_max_body_size 2m;
+
+server {
+    listen 80;
+    listen [::]:80;
+    #listen 443;
+    #listen [::]:443;
+
+    server_name api.notes.example.org;
+
+    access_log  /var/log/nginx/notes.example.org-ssl.access.log;
+    error_log   /var/log/nginx/notes.example.org-ssl.error.log;
+
+    #if ($scheme = http) {
+    #    return 301 https://$server_name$request_uri;
+    #}
+
+    #ssl                 on;
+    #
+    #ssl_certificate     /etc/ssl/private/api.notes.example.org/fullchain.pem;
+    #ssl_certificate_key /etc/ssl/private/api.notes.example.org/privkey.pem;
+    #
+    #ssl_ecdh_curve secp384r1;
+    #ssl_prefer_server_ciphers   on;
+    #ssl_protocols               TLSv1 TLSv1.1 TLSv1.2; # not possible to do exclusive
+    #ssl_ciphers 'EDH+CAMELLIA:EDH+aRSA:EECDH+aRSA+AESGCM:EECDH+aRSA+SHA384:EECDH+aRSA+SHA256:EECDH:+CAMELLIA256:+AES256:+CAMELLIA128:+AES128:+SSLv3:!aNULL:!eNULL:!LOW:!3DES:!MD5:!EXP:!PSK:!DSS:!RC4:!SEED:!ECDSA:CAMELLIA256-SHA:AES256-SHA:CAMELLIA128-SHA:AES128-SHA';
+    #
+    #ssl_stapling on;
+    #resolver 192.168.1.1;
+
+    index index.html;
+
+    location / {
+        proxy_set_header    Host $host;
+        proxy_pass http://turtl;
+    }
+}
+</code></pre><p>(tout ce qui est commenté est à décommenter si vous souhaitez utiliser
+le protocole sécurisé https, ce que nous recommandons vivement !)</p>
+<p>Activez la configuration :</p>
+<pre><code>ln -s /etc/nginx/sites-available/api.notes.example.org.conf /etc/nginx/sites-enabled/api.notes.example.org.conf
+</code></pre><p>Vérifiez qu'il n'y a pas d'erreur et rechargez Nginx :</p>
+<pre><code>nginx -t &amp;&amp; nginx -s reload
+</code></pre><h2 id="regarder-pousser"><a class="anchorjs-link " href="#regarder-pousser" aria-label="Anchor link for: regarder pousser" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: inherit; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Regarder pousser</h2>
+<p><img src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/pailler.png" alt=""></p>
+<p>Avec tout ce que nous avons fait jusque-là, vous avez un serveur Turtl
+prêt à être utilisé avec les <a href="https://turtlapp.com/download/" target="_blank">applications</a>.</p>
+<p>Mais nous nous sommes rendu compte que les différentes applications ne
+sont qu'une seule et même base de code en Javascript empaqueté selon les plateformes.
+Nous avons donc tenté de mettre tout ce code Javascript sur le web et ça
+fonctionne : on peut s'en servir comme d'un client web !
+Tout du moins, ça fonctionne parfaitement bien avec Chrome et Chromium,
+il y a quelques bugs graphiques pas trop gênants avec Firefox et cela
+ne semble pas fonctionner avec IE ou Edge.</p>
+<p>Mettons donc en place cette interface web.</p>
+<p>Nous aurons besoin de quelques paquets :</p>
+<pre><code>apt-get install nodejs npm
+ln -s /usr/bin/nodejs /usr/bin/node
+</code></pre><p>Installons cette interface :</p>
+<pre><code>cd /var/www/turtl/
+git clone https://github.com/turtl/js.git www
+cd www
+npm install
+# Copions le modèle de fichier de configuration
+cp config/config.js.default config/config.js
+</code></pre><p>Il y a un peu de configuration à faire dans <code>config/config.js</code> :</p>
+<pre><code># L'adresse du serveur installé précédemment
+# https ou http, c'est selon ce que vous mettrez en place,
+# mais il est évident qu'il est mieux de sécuriser les communications
+api_url: 'https://api.notes.examples.org',
+# L'adresse à laquelle sera accessible notre client web
+# https ou http, c'est selon ce que vous mettrez en place,
+# mais il est évident qu'il est mieux de sécuriser les communications
+site_url: 'https://notes.example.org',
+</code></pre><p>Après cela, il n'y a plus qu'à mettre la dernière touche :</p>
+<pre><code>make minify
+</code></pre><p>On corrige les permissions du dossier :</p>
+<pre><code>chown -R www-data: /var/www/turtl/
+</code></pre><p>Et enfin, nous créons la configuration Nginx <code>/etc/nginx/sites-available/notes.example.org</code> :</p>
+<pre><code>server {
+    listen 80;
+    listen [::]:80;
+    #listen 443;
+    #listen [::]:443;
+
+    server_name notes.example.org;
+
+    access_log  /var/log/nginx/notes.example.org-ssl.access.log;
+    error_log   /var/log/nginx/notes.example.org-ssl.error.log;
+
+    #if ($scheme = http) {
+    #    return 301 https://$server_name$request_uri;
+    #}
+    #
+    #ssl                 on;
+    #
+    #ssl_certificate     /etc/ssl/private/notes.example.org/fullchain.pem;
+    #ssl_certificate_key /etc/ssl/private/notes.example.org/privkey.pem;
+    #
+    #ssl_ecdh_curve secp384r1;
+    #ssl_prefer_server_ciphers   on;
+    #ssl_protocols               TLSv1 TLSv1.1 TLSv1.2; # not possible to do exclusive
+    #ssl_ciphers 'EDH+CAMELLIA:EDH+aRSA:EECDH+aRSA+AESGCM:EECDH+aRSA+SHA384:EECDH+aRSA+SHA256:EECDH:+CAMELLIA256:+AES256:+CAMELLIA128:+AES128:+SSLv3:!aNULL:!eNULL:!LOW:!3DES:!MD5:!EXP:!PSK:!DSS:!RC4:!SEED:!ECDSA:CAMELLIA256-SHA:AES256-SHA:CAMELLIA128-SHA:AES128-SHA';
+    #
+    #ssl_stapling on;
+    #resolver 192.168.1.1;
+
+    root /var/www/turtl/www/;
+    index index.html;
+}
+</code></pre><p>(tout ce qui est commenté est à décommenter si vous souhaitez utiliser
+le protocole sécurisé https, ce que nous recommandons vivement !)</p>
+<p>Activez la configuration :</p>
+<pre><code>ln -s /etc/nginx/sites-available/notes.example.org.conf /etc/nginx/sites-enabled/notes.example.org.conf
+</code></pre><p>Vérifiez qu'il n'y a pas d'erreur (<code>nginx -t</code>) et rechargez Nginx :</p>
+<pre><code>nginx -t &amp;&amp; nginx -s reload
+</code></pre><p>Et voilà, vous avez maintenant un client web disponible sur <a href="http://notes.example.org/" target="_blank">http://notes.example.org</a> :-)</p>
+<h2 id="désherber"><a class="anchorjs-link " href="#désherber" aria-label="Anchor link for: désherber" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: inherit; position: absolute; margin-left: -1em; padding-right: 0.5em;"></a>Désherber</h2>
+<p><img src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/tailler.png" alt=""></p>
+<p>Il arrive que le serveur Turtl plante en boucle, rendant toute
+synchronisation impossible. Pour détecter la cause, regarder dans les logs :</p>
+<pre><code>grep ccl /var/log/syslog
+</code></pre><p>Si vous voyez une ligne semblable à :</p>
+<pre><code>Oct  5 08:45:35 XXXX ccl[11765]: &lt;DEBUG&gt; [1475649935] turtl - bulk sync: :PERSONA :ADD XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Oct  5 08:45:35 XXXX ccl[11765]: &lt;ERROR&gt; [1475649935] turtl - wrapping (PROCESS-INCOMING-SYNC): That email is already registered to another persona.
+</code></pre><p>la solution sera fort simple. Si vous avez suivi ce tutoriel, vous avez
+normalement installé le module Python pour RethinkDB. Si ce n'est pas le cas :</p>
+<pre><code>apt-get install python-pip
+pip install rethinkdb
+</code></pre><p>Lancez l'interpréteur Python :</p>
+<pre><code>python
+</code></pre><p>Puis, dans l'interpréteur :</p>
+<pre><code>import rethinkdb as r
+r.connect().repl()
+</code></pre><p>Recherchez l'id du persona posant problème (le <code>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</code> du log) :</p>
+<pre><code>r.db('turtl').table('personas').filter(r.row['id'].eq('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')).run()
+</code></pre><p>Celui-ci a normalement des champs <code>body</code> et <code>pubkey</code> vides ou inexistants
+(vous le verrez vite : s'il y a un très gros pâté de texte, c'est que
+ces champs existent et sont remplis). Si les-dits champs sont bien vides
+ou inexistants, supprimez ce persona :</p>
+<pre><code>r.db('turtl').table('personas').filter(r.row['id'].eq('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')).delete().run()
+exit()
+</code></pre><p>Et voilà ! Le client qui tentait de créer un persona avec la même
+adresse email qu'un autre pourra le créer, et le serveur pourra
+continuer sa route tranquillement.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class="search-results-count"></span> results matching "<span class="search-query"></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class="search-query"></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/ttrss.html" class="navigation navigation-prev " aria-label="Previous page: Framanews / TinyTinyRSS">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="https://framacloud.org/fr/cultiver-son-jardin/etherpad.html" class="navigation navigation-next " aria-label="Next page: Framapad / Etherpad" style="margin-right: 0px;">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Framanotes / Turtl","level":"2.1.20","depth":2,"next":{"title":"Framapad / Etherpad","level":"2.1.21","depth":2,"path":"cultiver-son-jardin/etherpad.md","ref":"cultiver-son-jardin/etherpad.md","articles":[]},"previous":{"title":"Framanews / TinyTinyRSS","level":"2.1.19","depth":2,"path":"cultiver-son-jardin/ttrss.md","ref":"cultiver-son-jardin/ttrss.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","toggle-chapters","page-toc"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":{"en":"Edit This Page","fr":"Modifier cette page"},"base":"https://framagit.org/framasoft/framacloud/blob/master/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"fr","gitbook":"*"},"file":{"path":"cultiver-son-jardin/turtl.md","mtime":"2017-12-19T16:07:08.873Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-19T16:07:30.477Z"},"basePath":"..","book":{"language":"fr"}});
+        });
+    </script>
+</div>
+
+    <script type="text/javascript">
+    var loc = window.location.href+'';
+    if (loc.indexOf('http://') > -1 && window.location.host.indexOf('frama') > -1){
+        window.location.href = loc.replace('framasoft.frama.io/framacloud','framacloud.org').replace('http://','https://');
+    }
+    var l$ = {
+      js: {
+        j$: 'noConflict',
+        video : true,
+        ext: function(){ setTimeout(function() {
+            if (jQuery(window).width() <= 768) {
+                jQuery('.with-summary').removeClass('with-summary');
+            }
+            jQuery(window).resize(function(){
+                if (jQuery(window).width() <= 768) {
+                    jQuery('.with-summary').removeClass('with-summary');
+                }
+            });
+        }, 1000)}
+      },
+      mute: true,
+      footer: false
+    }
+    var script = document.createElement('script');
+        script.type = "text/javascript";
+        script.src="https://framasoft.org/nav/nav.js";
+        document.getElementsByTagName('head')[0].appendChild(script);
+    </script>
+
+        
+    <script src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/gitbook.js"></script>
+    <script src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/theme.js"></script>
+    
+        
+        <script src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/plugin.js"></script>
+        
+    
+        
+        <script src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/toggle.js"></script>
+        
+    
+        
+        <script src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/anchor-3.js"></script>
+        
+    
+        
+        <script src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/page-toc.js"></script>
+        
+    
+        
+        <script src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/search-engine.js"></script>
+        
+    
+        
+        <script src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/search.js"></script>
+        
+    
+        
+        <script src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/lunr.js"></script>
+        
+    
+        
+        <script src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/search-lunr.js"></script>
+        
+    
+        
+        <script src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/buttons.js"></script>
+        
+    
+        
+        <script src="Framanotes%20_%20Turtl%20%C2%B7%20GitBook_files/fontsettings.js"></script>
+        
+    
+
+    
+
+
+</body></html>

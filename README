@@ -1,0 +1,14 @@
+HELP:
+=====
+check turtl log:
+grep ccl /var/log/syslog
+# OR
+multitail -e ccl /var/log/syslog
+	help:nginx
+	======
+#test and reload
+nginx -t && nginx -s reload
+
+REF:
+====
+https://framacloud.org/fr/cultiver-son-jardin/turtl.html
